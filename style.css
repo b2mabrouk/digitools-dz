@@ -125,11 +125,17 @@ body {
 .main-image {
     background: var(--gradient-dark);
     border-radius: var(--radius-lg);
-    padding: 40px 30px;
+    padding: 20px;
     position: relative;
-    margin-bottom: 15px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    display: block;
 }
 
 .discount-badge {
